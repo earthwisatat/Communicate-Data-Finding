@@ -1,5 +1,4 @@
-# Communicate-Data-Finding
-# Loan Data from Prosper
+# Communicate-Data-Finding: Loan Data from Prosper
 ## by Wisatat
 
 ## Dataset
