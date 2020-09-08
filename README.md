@@ -5,17 +5,26 @@
 This data set contains 113,937 loans with 81 variables on each loan, including loan amount, borrower rate, current loan status, borrower income, and so on.
 For the purpose of this analysis we focused on the following:
 -BorrowerAPR - The Borrower's Annual Percentage Rate (APR) for the loan.
--LoanStatus - The current status of the loan: Cancelled,  Chargedoff, Completed, Current, Defaulted, FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.
--Occupation - The Occupation selected by the Borrower at the time they created the listing.
--EmploymentStatus - The employment status of the borrower at the time they posted the listing.
--EmploymentStatusDuration - The length in months of the employment status at the time the listing was created.
--ProsperScore - A custom risk score built using historical Prosper data. The score ranges from 1-10, with 10 being the best, or lowest risk score.
--IncomeRange - The income range of the borrower at the time the listing was created.
--DebtToIncomeRatio - The debt to income ratio of the borrower at the time the credit profile was pulled. This value is Null if the debt to income ratio is not available. This value is capped at 10.01 (any debt to income ratio larger than 1000% will be returned as 1001%).
--IncomeVerifiable - The borrower indicated they have the required documentation to support their income.
--Recommendations - Number of recommendations the borrower had at the time the listing was created.
--AvailableBankcardCredit - The total available credit via bank card at the time the credit profile was pulled.
 
+-LoanStatus - The current status of the loan: Cancelled,  Chargedoff, Completed, Current, Defaulted, FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.
+
+-Occupation - The Occupation selected by the Borrower at the time they created the listing.
+
+-EmploymentStatus - The employment status of the borrower at the time they posted the listing.
+
+-EmploymentStatusDuration - The length in months of the employment status at the time the listing was created.
+
+-ProsperScore - A custom risk score built using historical Prosper data. The score ranges from 1-10, with 10 being the best, or lowest risk score.
+
+-IncomeRange - The income range of the borrower at the time the listing was created.
+
+-DebtToIncomeRatio - The debt to income ratio of the borrower at the time the credit profile was pulled. This value is Null if the debt to income ratio is not available. This value is capped at 10.01 (any debt to income ratio larger than 1000% will be returned as 1001%).
+
+-IncomeVerifiable - The borrower indicated they have the required documentation to support their income.
+
+-Recommendations - Number of recommendations the borrower had at the time the listing was created.
+
+-AvailableBankcardCredit - The total available credit via bank card at the time the credit profile was pulled.
 
 
 ## Summary of Findings
