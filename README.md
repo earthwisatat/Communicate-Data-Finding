@@ -7,6 +7,7 @@ This data set contains 113,937 loans with 81 variables on each loan, including l
 For the purpose of this analysis we focused on the following:
 
 -BorrowerAPR - The Borrower's Annual Percentage Rate (APR) for the loan.
+
 -LoanStatus - The current status of the loan: Cancelled,  Chargedoff, Completed, Current, Defaulted, FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.
 -Occupation - The Occupation selected by the Borrower at the time they created the listing.
 -EmploymentStatus - The employment status of the borrower at the time they posted the listing.
